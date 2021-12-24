@@ -18,7 +18,7 @@ int	main( void )
 	Data		*new_ptr;
 	uintptr_t	raw;
 
-	ptr->data = "Hi, how's going";
+	ptr->data = "Hello world!";
 	raw = serialize(ptr);
 	std::cout << raw << std::endl;
 	new_ptr = deserialize(raw);

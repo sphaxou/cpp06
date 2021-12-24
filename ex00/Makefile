@@ -10,10 +10,10 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME	= bureaucrat
+NAME	= convert
 
 SRC		= main.cpp\
-		Bureaucrat.cpp\
+		Convertor.cpp\
 
 OBJ		= $(addprefix $(OBJDIR),$(SRC:.cpp=.o))
 
